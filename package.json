@@ -1,0 +1,29 @@
+{
+  "name": "baseballdoosandemo",
+  "version": "1.0.0",
+  "description": "angular4 + noSQL(MongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLouLiang/BaseballDoosan.git"
+  },
+  "keywords": [
+    "Angular",
+    "MongoDB"
+  ],
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "cors":"*",
+    "body-parser":"*"
+  },
+  "author": "Leung Lv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LLouLiang/BaseballDoosan/issues"
+  },
+  "homepage": "https://github.com/LLouLiang/BaseballDoosan#readme"
+}

@@ -1,0 +1,248 @@
+/* You can add global styles to this file, and also import other style files */
+/*-----over all app design*/
+body{
+    min-width:370px;
+}
+
+/*----Body-------*/
+.container{
+    height: 800px;
+}
+
+/*-----Home -------*/
+.mainVideoWrap video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#video-container{
+    position: relative;
+    top:75.59px;
+    left:0;
+    display:flex;
+    align-items: center;
+    height:500px;
+    padding: 1rem 1rem;
+    margin:auto;
+    text-align: center;
+}
+
+.mainVideoWrap{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background: black;
+    opacity: 0.55;
+    z-index:1;
+}
+
+.cover-content{
+    margin:auto;
+    z-index: 2;
+}
+
+.cover-content section p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size:30px;
+    color: white;
+}
+
+.cover-content section span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size:30px;
+    color: #118bd0;
+}
+.cover-content p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size:30px;
+    color: #118bd0;
+}
+
+.artical-content{
+    margin-top:100px;
+    width:100%;
+}
+
+.artical-column{
+    width:30.55%;
+    margin:10px;
+    padding:15px;
+}
+
+.artical-column h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    color: #909090;
+}
+
+.artical-column p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size:12px;
+    color: #D5D5D5;
+}
+
+@media screen and (max-width: 718px){
+    .artical-content{
+        margin-top:100px;
+        width:100%;
+    }
+    
+    .artical-column{
+        width:100%;
+        margin:10px;
+        padding:15px;
+    }
+    
+    .artical-column h2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size:30px;
+        color: #909090;
+    }
+    
+    .artical-column p{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 200;
+        font-size:12px;
+        color: #D5D5D5;
+    }
+    
+}
+/*----NavBar-----*/
+.navigation{
+    position: fixed;
+    left:0;
+    top:0;
+    min-width: 100%;
+    background: white;
+    z-index:3;
+    border-bottom: 0.1rem solid #118bd0;
+}
+
+#navItem{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    color: #118bd0;
+}
+
+/*-----contact form ------*/
+.contactform{
+    position: relative;
+    left:0;
+    top:75.59px;
+    min-width: 100%;
+}
+
+/*----Footer-----*/
+footer{
+    padding : 0px 0px;
+    background-color : #D5D5D5;
+    overflow: auto;
+}
+
+footer .container{
+    max-height: 180px;
+}
+footer nav{
+    float: right;
+    margin:auto;
+    padding: 15px 15px;
+}
+
+footer nav ul{
+    margin-top:73px;
+}
+
+footer nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+footer nav ul li a{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color:black;
+}
+
+footer nav section p{
+    float: right;
+    list-style: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color:black;
+}
+/*------------copied from source Baseball.doosan style.css source code---------------*/
+.btn_youtube {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url("http://www.doosan.com/en/wp-content/themes/dstheme/css/img/ico_footer.png") -86px 0 no-repeat;
+}
+
+.btn_rss {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url("http://www.doosan.com/en/wp-content/themes/dstheme/css/img/ico_footer.png") 0 -30px no-repeat #4f5964;
+    margin-right: 5px;
+}
+
+footer .btn_rss{
+    float:right;
+}
+footer .btn_youtube{
+    float:right;
+}
+@media (max-width:400px){
+    footer{
+        min-width: 200px;
+        padding: 0rem 0rem;
+        background-color : #D5D5D5;
+        overflow: auto;
+    }
+    footer nav{
+        margin:auto;
+        padding: 15px 15px;
+    }
+    footer nav ul{
+        margin-top:73px;
+    }
+    footer nav ul li{
+        display: inline-block;
+    }
+    footer nav ul li a{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color:black;
+    }
+    footer nav section p{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color:black;
+    }
+}
